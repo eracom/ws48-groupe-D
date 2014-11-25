@@ -2,7 +2,7 @@
 
 /*doc
 ---
-title: Colors
+title: Couleur pour MSF
 name: a-colors
 category: Layout - Colors
 ---
@@ -11,54 +11,30 @@ category: Layout - Colors
   <div class="row">
 
     <div class="col-sm-3 col-xs-6">
-      <div style="background:#222;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-darker</pre>
+      <div style="background:#666666;"><br><br><br><br><br></div>
+      <pre class="text-center">$gris-texte</pre>
     </div>
 
     <div class="col-sm-3 col-xs-6">
-      <div style="background:#333;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-dark</pre>
+      <div style="background:#999999;"><br><br><br><br><br></div>
+      <pre class="text-center">$gris-titre</pre>
     </div>
 
     <div class="col-sm-3 col-xs-6">
-      <div style="background:#555;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray</pre>
+      <div style="background:#eeeeee;"><br><br><br><br><br></div>
+      <pre class="text-center">$gris-bloctexte</pre>
     </div>
 
     <div class="col-sm-3 col-xs-6">
-      <div style="background:#999;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-light</pre>
+      <div style="background:#404040;"><br><br><br><br><br></div>
+      <pre class="text-center">$gris-bloctitre</pre>
     </div>
 
     <div class="col-sm-3 col-xs-6">
-      <div style="background:#eee;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-lighter</pre>
+      <div style="background:#ff0000;"><br><br><br><br><br></div>
+      <pre class="text-center">$rouge</pre>
     </div>
 
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#428bca;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-primary</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5cb85c;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-success</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5bc0de;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-info</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#f0ad4e;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-warning</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#d9534f;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-danger</pre>
-    </div>
 
   </div>
 </div>
@@ -151,3 +127,17 @@ All the colors are in `-light` or `-dark` variant.
   </div>
 </div>
 */
+
+//
+$gris-texte:
+#666666;
+$gris-titre:
+#999999;
+$gris-bloctexte:
+#eeeeee;
+$gris-bloctitre:
+#404040;
+$rouge:
+#ff0000;
+ //
+
