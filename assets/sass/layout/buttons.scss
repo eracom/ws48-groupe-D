@@ -54,12 +54,14 @@ category: Layout - Buttons
 
 ```html_example
 <p>
-  <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-  <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+  <button type="button" class="btn btn-primary btn-lg btn-block">Block<br> level <br>button</button>
+  <button type="button" class="btn btn-default btn-lg btn-block">IMPORTANT button</button>
 </p>
 ```
 */
-
+.btn-block {
+  padding: 5px;
+}
 
 /*doc
 ---
