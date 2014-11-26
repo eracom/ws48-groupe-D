@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Footer
+name: a-Footer
+category: Components - Footer
+---
+
+```html_example
+<footer>
+  <div class="row">
+    <div class="col-md-3"> 
+      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+    </div>
+    <div class="col-md-3"> 
+      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+    </div>
+    <div class="col-md-3"> 
+      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+    </div>
+    <div class="col-md-3"> 
+      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+    </div>
+  </div><!-- /.row -->
+</footer><!-- /.footer -->
+```
+*/
+
+footer {
+  background-color:$gris-bloctexte;
+  padding:50%;
+}
