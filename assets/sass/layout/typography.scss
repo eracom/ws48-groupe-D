@@ -8,14 +8,59 @@ category: Layout - Typography
 ---
 
 ```html_example
-<h1>My title level 1</h1>
-<h2>My title level 2</h2>
-<h3>My title level 3</h3>
-<h4>My title level 4</h4>
-<h5>My title level 5</h5>
-<h6>My title level 6</h6>
+<h1>MY TITLE level <a href="#">1</a></h1>
+<h2>MY TITLE level <a href="#">2</a></h2>
+<h3>MY TITLE level <a href="#">3</a></h3>
+
 ```
 */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial';
+}
+
+h1{
+  font-weight: bold;
+  font-size: 13px;
+  color: $gris-bloctitre;
+}
+h2 {
+  font-weight: bold;
+  font-size: 10px;
+  color:$gris-titre;
+}
+h3 {
+  font-size: 9px;
+  color: $gris-titre;
+}
+
+p {
+  color:$gris-texte;
+  font-family: 'PT Sans';
+  font-size: 10px;
+}
+h1 a {
+  color:$gris-bloctitre;
+}
+h2 a , h3 a{
+  color:$gris-titre;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:$rouge;
+  text-decoration: none;
+
+}
+
+p a {
+  color:$rouge;
+}
+p a:hover {
+  color:$gris-texte;
+}
+
 
 
 
@@ -43,7 +88,8 @@ category: Layout - Typography
 
 ```html_example
 <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus. Neque solum ea communia, verum etiam paria esse dixerunt. Sed haec omittamus; Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Duo Reges: constructio interrete. Re mihi non aeque satisfacit, et quidem locis pluribus.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus. Neque solum ea communia, verum etiam paria esse dixerunt. Sed haec omittamus; Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Duo Reges: constructio interrete. Re mihi non aeque satisfacit,
+   et quidem locis pluribus.  <a href="#">plus >></a>
 </p>
 ```
 */
