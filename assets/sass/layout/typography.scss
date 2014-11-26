@@ -11,6 +11,7 @@ category: Layout - Typography
 <h1>MY TITLE level <a href="#">1</a></h1>
 <h2>MY TITLE level <a href="#">2</a></h2>
 <h3>MY TITLE level <a href="#">3</a></h3>
+<h4>MY TITLE level <a href="#">4</a></h4>
 
 ```
 */
@@ -34,6 +35,13 @@ h3 {
   color: $gris-titre;
 }
 
+h4 {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+
 p {
   color:$gris-texte;
   font-family: 'PT Sans';
@@ -47,6 +55,11 @@ h2 a , h3 a{
 }
 a {
   text-decoration: none;
+}
+
+h4 a {
+  color: #ffffff;
+
 }
 a:hover {
   color:$rouge;
