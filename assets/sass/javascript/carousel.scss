@@ -8,21 +8,21 @@ category: JavaScript - Carousel
 ---
 
 ```html_example
+ 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
-  </ol>
+ 
   <div class="carousel-inner">
     <div class="item">
-      <img src="http://lorempixel.com/900/500/cats">
+      <img src="http://lorempixel.com/900/300/cats">
+      <h4>Vivre avec le diabète au Liban est une lutte silencieuse pour des milliers de Syriens. | 19.11.2014</h4>
     </div>
     <div class="item">
-      <img src="http://lorempixel.com/900/500/cats">
+      <img src="http://lorempixel.com/900/300/cats">
+       <h4>Vivre avec le diabète au Liban est une lutte silencieuse pour des milliers de Syriens. | 19.11.2014</h4>
     </div>
     <div class="item active">
-      <img src="http://lorempixel.com/900/500/cats">
+      <img src="http://lorempixel.com/900/300/cats">
+       <h4>Vivre avec le diabète au Liban est une lutte silencieuse pour des milliers de Syriens. | 19.11.2014</h4>
     </div>
   </div>
   <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -34,3 +34,21 @@ category: JavaScript - Carousel
 </div>
 ```
 */
+
+
+.carousel-inner {
+position: relative;
+overflow: hidden;
+width: 100%;
+}
+
+
+.carousel-inner h4 {
+background: #404040;
+padding: 6px;
+margin: 0;
+height: 30px;
+
+}
+
+

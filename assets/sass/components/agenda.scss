@@ -2,62 +2,41 @@
 
 /*doc
 ---
-title: Default media
-name: a-media
-category: Components - Media
+title: Agenda
+name: a-Agenda
+category: Components - Agenda
 ---
 
 ```html_example
-
-<div class="article">
-<h1>EBOLA: MSF N'A PAS À REMPLACER LES ETATS</h1>
-<h3>24.11.2014 - GUINÉE</h3>
-<h2>ARTICLES</h2>
-<p>Très récemment, le député européen Charles Goerens, rapporteur pour Ebola à la Commission du développement du Parlement européen, a déclaré que cette épidémie était « la première grande crise... <a href="#">plus >></a></p>
-<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/315/200/cats" style="width: 315px; height: 150px;">
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    <div class="media">
+      <a class="pull-left" href="#">
+        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Nested media heading</h4>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </div>
+  </div>
+</div>
 ```
 */
-
-.article {
-  
-  padding: 0px;
-  width:320px;
-}
-
-.article h1{
-  
-margin-bottom: 0px;
-
-}
-
-.article h3 {
-  
-margin-top: 3px;
-
-}
-
-.article h2 {
-  
-margin-bottom: 4px;
-
-}
-
-
-
 
 
 

@@ -47,7 +47,7 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "PT Sans", Arial, Helvetica, sans-serif !default;
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -152,13 +152,14 @@ $table-border-color:            #ddd !default;
 
 $btn-font-weight:                normal !default;
 
-$btn-default-color:              #333 !default;
-$btn-default-bg:                 #fff !default;
-$btn-default-border:             #ccc !default;
+$btn-default-color:              #ffffff !default;
+$btn-default-bg:                 #ff0000 !default;
+$btn-default-border:             #ffffff !default;
 
 $btn-primary-color:              #fff !default;
-$btn-primary-bg:                 $brand-primary !default;
-$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-bg:                 #ff0000 !default;
+$btn-primary-border:             #ffffff
+ !default;
 
 $btn-success-color:              #fff !default;
 $btn-success-bg:                 $brand-success !default;
@@ -800,7 +801,7 @@ $breadcrumb-separator:          "/" !default;
 //
 //##
 
-$carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6) !default;
+$carousel-text-shadow:                        0 0px 0px rgba(0,0,0,0) !default;
 
 $carousel-control-color:                      #fff !default;
 $carousel-control-width:                      15% !default;
