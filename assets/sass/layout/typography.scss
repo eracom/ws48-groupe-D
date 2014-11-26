@@ -66,18 +66,32 @@ p a:hover {
 
 /*doc
 ---
-title: Lead
+title: Liste 
 name: b-lead
 category: Layout - Typography
 ---
 
 ```html_example
-<p class="lead">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
-</p>
+<ul class="list-unstyled">
+  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
+  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
+  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
+  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
+</ul>
+
 ```
 */
 
+
+a {
+   margin-top: 4px;
+  color: #d7d6d6;
+  
+}
+
+hr {
+  margin: 1px;
+}
 
 /*doc
 ---

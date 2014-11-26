@@ -36,7 +36,7 @@ category: Components - Thumbnails
 
 /*doc
 ---
-title: Image de la page média
+title: Images de la page média
 name: b-custom-content
 category: Components - Thumbnails
 ---
@@ -47,7 +47,7 @@ category: Components - Thumbnails
     <div class="thumbnail">
       <img src="http://lorempixel.com/300/300/cats" alt="Some cats image">
       <div class="caption">
-        <p>Légende de l'image/ galerie multimedia</p>
+        <p class="dd">Légende de l'image/ galerie multimedia</p>
       </div>
     </div>
   </div>
@@ -60,4 +60,8 @@ category: Components - Thumbnails
   color: #fff!important;
   border-radius: none;
   padding: none;
+}
+
+.dd {
+  color: #fff;
 }
