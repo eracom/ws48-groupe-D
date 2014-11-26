@@ -14,14 +14,39 @@ category: Layout - Buttons
 
 | Preview                                                        | Class                      |
 |----------------------------------------------------------------|----------------------------|
-| <button type="button" class="btn btn-default">Default</button> | <pre>btn btn-default</pre> |
-| <button type="button" class="btn btn-primary">Primary</button> | <pre>btn btn-primary</pre> |
+| <button type="button" class="btn btn-default">FAIRE<br>UN<br>DON</button> | <pre>btn btn-default</pre> |
+| <button type="button" class="btn btn-primary">Postes ouverts</button> | <pre>btn btn-primary</pre> |
 | <button type="button" class="btn btn-success">Success</button> | <pre>btn btn-success</pre> |
 | <button type="button" class="btn btn-info">Info</button>       | <pre>btn btn-info</pre>    |
 | <button type="button" class="btn btn-warning">Warning</button> | <pre>btn btn-warning</pre> |
 | <button type="button" class="btn btn-danger">Danger</button>   | <pre>btn btn-danger</pre>  |
 | <button type="button" class="btn btn-link">Link</button>       | <pre>btn btn-link</pre>    |
 */
+
+.btn-default {
+  border-radius: 0px;
+  width: 300px;
+  text-align: left;
+  padding: 0px;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  padding-left: 3px;
+  
+}
+
+
+.btn-primary {
+  border-radius: 0px;
+  width: 300px;
+  text-align: left;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-left: 3px;
+  
+}
 
 
 /*doc
