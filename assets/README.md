@@ -7,6 +7,7 @@ This is my new awesome styleguide generated with [Antistatique](http://www.antis
 <a href="pages/index.html" class="btn btn-success">Home page</a>
 <a href="pages/nosprojets.html" class="btn btn-success">Nos Projets page</a>
 <a href="pages/media.html" class="btn btn-success">Medias page</a>
+<a href="pages/formulaire.html" class="btn btn-success">Formulaire page</a>
 ```
 
 **<3 Yeoman + Gulp + Hologram**
