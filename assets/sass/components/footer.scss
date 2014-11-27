@@ -8,26 +8,41 @@ category: Components - Footer
 ---
 
 ```html_example
+
 <footer>
-  <div class="row">
+  <div class="row footer">
     <div class="col-md-3"> 
-      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+      <h4>coordonées</h4> <p>CCP 12-100-2<br>Banque: UBS SA, CH - 1211 Genève 2<br>Titulaire: Médecins Sans Frontières<br>No de compte: 240-376066.00Q<br>IBAN: CH18 0024 0240 3760 6600 Q<br>BIC: UBSWCHZH80A</p>
     </div>
     <div class="col-md-3"> 
-      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+      <h4>Médecis sans frontières</h4><p>78, rue de Lausanne<br>CP 116<br>1211 Genève 21<br>Tel: +41 (0)22 849 84 84<br>
+      Fax: +41 (0)22 849 84 88<br>office-gva@geneva.msf.org</p>
     </div>
     <div class="col-md-3"> 
-      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+      <h4>Médecins sans frontières</h4><p>Kanzleistrasse 126<br>CP 1942<br>8026 Zürich<br>
+Tel: +41 (0)44 385 94 44<br>Fax: +41 (0)44 385 94 45<br>office-zuh@geneva.msf.org</p>
     </div>
     <div class="col-md-3"> 
-      <h4>footer</h4> <p>footer footer footer <br> footer footer <br> footer footer footer</p>
+      <h4>Rester informer</h4><p>S'abonner a la Newsletter<br><input type="text" class="form-control" placeholder="Email"><br>s'abonner</p>
     </div>
   </div><!-- /.row -->
 </footer><!-- /.footer -->
 ```
 */
 
-footer {
-  background-color:$gris-bloctexte;
-  padding:50%;
+.form-control {
+    
+      width: 120px;
+      border-radius: 0px;
+      height: 20px;
+      font-size: 10px;
+      margin-top: 5px;
+}
+
+footer { 
+  background: #eeeeee;
+  height: 160px;
+  padding: 25px;
+
+
 }
