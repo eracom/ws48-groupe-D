@@ -8,21 +8,53 @@ category: Components - Media
 ---
 
 ```html_example
-<div class="media">
-  <div class="pull-left agenda">
-    <h4>NOV</h4>
-    <h1>26</h1>
+<h1 class="agenda-title">Agenda</h1>
+
+<div class="media medias-agenda">
+
+  <div class="agenda-date">
+
+    <div class="pull-left agenda">
+      <h4>NOV</h4>
+      <h1>26</h1>
+    </div>
+
+    <div class="media-body">
+      <h3>78, RUE DE LAUSANNE - 1202 GENÈVE</h3>
+      <h1>Portes ouvertes legs</h1>
+      <p>Vous souhaitez des compléments d’informations sur la possibilité de faire un legs ou un héritage en faveur de MSF?</p>
+    </div>
+
   </div>
-  <div class="media-body">
-    <h3>78, RUE DE LAUSANNE - 1202 GENÈVE</h3>
-    <h1>Portes ouvertes legs</h1>
-    <p>Vous souhaitez des compléments d’informations sur la possibilité de faire un legs ou un héritage en faveur de MSF?</p>
+
+  <div class="agenda-date">
+
+    <div class="pull-left agenda">
+      <h4>NOV</h4>
+      <h1>26</h1>
+    </div>
+
+    <div class="media-body">
+      <h3>78, RUE DE LAUSANNE - 1202 GENÈVE</h3>
+      <h1>Portes ouvertes legs</h1>
+      <p>Vous souhaitez des compléments d’informations sur la possibilité de faire un legs ou un héritage en faveur de MSF?</p>
+    </div>
+
   </div>
+
 </div>
+
 
 
 ```
 */
+
+.agenda-date {
+margin-top: 10px;
+}
+.agenda-title{
+  margin-bottom: 0px;
+}
 
 .agenda{
   text-align: center;
@@ -31,6 +63,14 @@ category: Components - Media
   border:solid 1px $gris-bloctitre;
   padding:0px;
   margin-right: 20px;
+}
+
+.medias-agenda {
+  padding-top:100px;
+  margin-top:5px;
+  background-color: $gris-bloctexte;
+  padding: 20px;
+
 }
 
 .pull-left h4 {
@@ -45,6 +85,7 @@ category: Components - Media
 .pull-left h1 {
   margin:0px;
   font-size:23px;
+  background-color: #fff;
   width:34px;
   padding:3px;
 }
