@@ -74,7 +74,7 @@ p a:hover {
   color:$gris-texte;
 }
 
-
+.list-unstyled {margin-top: 75px;}
 
 
 /*doc
@@ -85,11 +85,12 @@ category: Layout - Typography
 ---
 
 ```html_example
+
 <ul class="list-unstyled">
-  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
-  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
-  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
-  <li> <a href="#">liste de liens vers quelque chose de cool</a></li> <hr>
+  <li> <a href="#">Articles</a></li> <hr>
+  <li> <a href="#">Récits de mission</a></li> <hr>
+  <li> <a href="#">Multimédia</a></li> <hr>
+  <li> <a href="#">Publications</a></li> <hr>
 </ul>
 
 ```
