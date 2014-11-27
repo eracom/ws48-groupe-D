@@ -3,7 +3,10 @@
 This is my new awesome styleguide generated with [Antistatique](http://www.antistatique.net)'s [styleguide-generator](https://github.com/tonifisler/generator-styleguide)! 
 
 ```none_example
-<a href="pages/index.html" class="btn btn-primary">Static example pages</a>
+<a href="pages/index.html" class="btn btn-info">Static example pages</a>
+<a href="pages/index.html" class="btn btn-success">Home page</a>
+<a href="pages/nosprojets.html" class="btn btn-success">Nos Projets page</a>
+<a href="pages/media.html" class="btn btn-success">Medias page</a>
 ```
 
 **<3 Yeoman + Gulp + Hologram**
@@ -16,8 +19,6 @@ This is my new awesome styleguide generated with [Antistatique](http://www.antis
     <h2>H2. My title level 2</h2>
     <h3>H3. My title level 3</h3>
     <h4>H4. My title level 4</h4>
-    <h5>H5. My title level 5</h5>
-    <h6>H6. My title level 6</h6>
   </div>
   <div class="col-md-6">
     <h3 class="text-muted">Standard Text</h3>
