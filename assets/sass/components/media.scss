@@ -73,9 +73,10 @@ category: Components - Media
 
 
 .full {
-  
+  margin-bottom: 20px;
+
   padding: 0px;
-  width:635px;
+  width:auto;
 }
 
 .full h1{
@@ -93,5 +94,10 @@ margin-top: 3px;
 .full h2 {
   
 margin-bottom: 4px;
+
+}
+.full img {
+  
+max-width:100%;
 
 }
